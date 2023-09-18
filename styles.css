@@ -1,0 +1,166 @@
+/* CSS Selectors */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Priorities */
+h1 {
+    font-family: Arial, sans-serif !important;
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+/* Colors */
+a {
+    color: #0000cc;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+/* Background */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Text Styling and Font Properties */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Font Properties */
+h2 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Hover and Active Link Properties */
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+/* Box Model */
+.content {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Border, Margin, and Padding */
+.content {
+    border: 2px solid #555;
+    margin: 30px;
+    padding: 15px;
+}
+
+/* Width and Height */
+.content {
+    width: 80%;
+    height: 200px;
+}
+
+/* Display */
+.content {
+    display: block;
+}
+
+/* Position */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Float */
+.float-left {
+    float: left;
+    width: 50%;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+}
+
+/* Grouping and Nesting */
+nav, footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
+
+/* Overflow */
+.overflow {
+    overflow: scroll;
+}
+
+/* Visibility */
+.hidden {
+    visibility: hidden;
+}
+
+/* Z-Index */
+.content {
+    z-index: 1;
+}
+
+/* Outline */
+a {
+    outline: none;
+}
+
+/* Cursor */
+a {
+    cursor: pointer;
+}
+
+/* Pseudo-class Attributes */
+a:link {
+    color: #0000cc;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
